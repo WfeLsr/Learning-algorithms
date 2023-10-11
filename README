@@ -1,0 +1,36 @@
+This Code is plotting UR5 6deg angles in Rad:
+
+Needed Soft & Library:
+
+ Python 2.7.12
+    *Check for updates :    
+     sudo apt-get update  
+    *Install Pyhton2.7.12
+    sudo apt-get install python2.7.12
+    *Check the version used when typing python
+     python -V 
+
+ Python 3.5.2
+    *Check for updates :    
+     sudo apt-get update  
+    *Install Pyhton3.5.2
+    sudo apt-get install python3.5.2
+    *Check the version used when typing python
+     python3 -V 
+
+Some Library for Both Python might not be installed ,if necessary you will have a message in terminal. For this issue please install "pip" package from the link  for both Python(2/3): 
+   https://packaging.python.org/tutorials/installing-packages/
+
+Then after you execute the code if you have terminal error in package you can try installing the package via pip depending on the python version used.
+
+Executing the code :
+ 
+ Afer unziping the file :
+  if not installed : 
+     sudo apt install unzip 
+  if installed :
+     unzip backup.zip
+  In the current Directory run the command :
+    
+    python pploting.py
+
